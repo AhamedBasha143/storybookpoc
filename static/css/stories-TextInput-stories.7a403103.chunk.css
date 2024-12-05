@@ -1,0 +1,50 @@
+.text-input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .text-input-container.top {
+    flex-direction: column;
+  }
+  
+  .text-input-container.left {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .text-input-container label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .text-input-container.left label {
+    margin-right: 10px;
+  }
+  
+  .text-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 99%;
+  }
+  
+  .text-input-container.left .text-input {
+    width: auto;
+    flex-grow: 1; /* Ensure the input field grows in width when the label is on the left */
+  }
+  
+  .required-asterisk {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .top{
+    flex-direction: column;
+  }
+  .left{
+    flex-direction: row;
+  }
+  
+
+/*# sourceMappingURL=stories-TextInput-stories.7a403103.chunk.css.map*/

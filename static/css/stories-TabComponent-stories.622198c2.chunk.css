@@ -1,0 +1,41 @@
+.tab-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .tab-header {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+  }
+  
+
+/*# sourceMappingURL=stories-TabComponent-stories.622198c2.chunk.css.map*/

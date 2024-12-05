@@ -1,0 +1,52 @@
+/* Base styles */
+.select-dropdown {
+    position: relative;
+    width: 250px; /* Width of the dropdown */
+  }
+  
+  .select-dropdown select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    font-size: 16px; /* Font size */
+    -webkit-appearance: none;
+            appearance: none; /* Remove default dropdown arrow */
+    transition: border-color 0.3s ease; /* Transition for border color */
+  }
+  
+  /* Focus state */
+  .select-dropdown select:focus {
+    border-color: #007bff; /* Border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Hover state */
+  .select-dropdown select:hover {
+    border-color: #007bff; /* Border color on hover */
+  }
+  
+  /* Custom dropdown arrow */
+  .select-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Position of the arrow */
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000; /* Arrow color */
+    transform: translateY(-50%);
+  }
+  
+  /* Disabled state */
+  .select-dropdown select:disabled {
+    background-color: #f9f9f9; /* Light gray background for disabled */
+    color: #a9a9a9; /* Gray text color */
+    cursor: not-allowed; /* Change cursor style */
+  }
+  
+
+/*# sourceMappingURL=stories-SingleSelectDropdown-stories.4bae060b.chunk.css.map*/

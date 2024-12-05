@@ -1,0 +1,29 @@
+/* DatePicker.css */
+.date-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .date-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="date"],
+  input[type="datetime-local"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 11.8%;
+  }
+  
+  input[type="date"]:focus,
+  input[type="datetime-local"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+
+/*# sourceMappingURL=stories-DatePicker-stories.2c6bdbc7.chunk.css.map*/
