@@ -1,0 +1,42 @@
+.searchbox-with-icon-form {
+  display: flex;
+    align-items: center;
+    gap: 5.5rem;
+    margin: auto;
+}
+
+.searchbox-with-icon {
+  position: relative;
+  width: 100%;
+}
+
+.searchbox-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.searchbox-input-icon {
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem; /* Padding on left to accommodate the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.searchbox-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.searchbox-button:hover {
+  background-color: #007acc;
+}
